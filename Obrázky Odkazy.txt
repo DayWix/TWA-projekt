@@ -26,5 +26,6 @@ brazil.png - https://cdn.racingnews365.com/Circuits/Brazil/_639xAUTO_crop_center
 vegas.png - https://cdn.racingnews365.com/Circuits/Las-Vegas/_639xAUTO_crop_center-center_none/f1_2023_las_outline.png?v=1673862364
 abu-dhabi.png - https://cdn.racingnews365.com/Circuits/Abu-Dhabi/_639xAUTO_crop_center-center_none/f1_2023_abu_outline.png?v=1673862333
 adelaile.svg - https://upload.wikimedia.org/wikipedia/commons/a/aa/Adelaide_%28short_route%29.svg
+ain-diab.png - https://static.wikia.nocookie.net/f1wikia/images/a/a4/Ain-Diab.svg/revision/latest/scale-to-width-down/350?cb=20161205083136
 
 
