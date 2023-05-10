@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Titillium web";
+  src: url(Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+@media only screen and (max-width: 576px) {
+  header {
+    background-color: white;
+  }
+  .center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+  }
+  /* Stylování tlačítka, které slouží k otevření rozbalovacího menu */
+  .dropbtn {
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(196, 0, 0);
+  }
+  /* Stylování obsahu rozbalovacího menu (výchozí stav je skrytý) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  /* Stylování odkazů uvnitř rozbalovacího menu */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /* Změna barvy odkazů po najetí myší */
+  .dropdown-content a:hover {
+    background-color: rgb(196, 0, 0);
+  }
+  /* Zobrazení menu po kliknutí */
+  .dropdown.clicked .dropdown-content {
+    display: block;
+  }
+  i {
+    font-size: 25px;
+    color: #f1f1f1;
+  }
+}
+@media only screen and (min-width: 576px) {
+  header {
+    background-color: white;
+  }
+  .center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+  }
+  nav {
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: inline-block;
+  }
+  nav a {
+    display: block;
+    padding: 0.5em;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  nav button {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  header {
+    background-color: white;
+  }
+  .center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+    height: 60px;
+  }
+  nav {
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: inline-block;
+  }
+  nav a {
+    display: block;
+    padding: 0.5em;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  nav button {
+    display: none;
+  }
+}
+body {
+  background-color: white;
+  margin: 0px;
+}
+
+body {
+  font-family: "Titillium web";
+}
+body header img {
+  padding: 10px;
+}
+
+nav {
+  background-color: rgb(196, 0, 0);
+}
+h1{
+  text-align: center;
+  font-family: "Titillium web";
+}
+div
+{
+  display: block;
+}
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+  padding-left: 55px;
+  
+}
+a:focus, a:hover, a {
+  cursor: pointer;
+  text-decoration: none;
+}
+body td a img:first-child {
+  margin-top: 2rem;
+}
+body td a img {
+  border: 2px solid rgb(210, 29, 29);
+  max-width: 100%;
+  max-height: 50%;
+  min-height: 100%;
+  align-self: center;
+  max-width: 450px;
+  max-height: 550px;
+  min-height: 350px;
+  margin-top: 2rem;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(54, 48, 48);
+}
