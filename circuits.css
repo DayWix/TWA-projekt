@@ -48,8 +48,33 @@
     font-size: 25px;
     color: #f1f1f1;
   }
+  td, th {
+    display: block;
+  }
+
+  td {
+    position: relative;
+    
+  }
+
+  td::before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    content: attr(data-label);
+    font-weight: bold;
+  }
+  .table-wrapper {
+    overflow-x: auto; 
+    
+  }
+ 
+  
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 576px) and (max-width: 768px){
   header {
     background-color: white;
   }
@@ -81,6 +106,30 @@
   nav button {
     display: none;
   }
+  td, th {
+    display: block;
+  }
+
+  td {
+    position: relative;
+    
+  }
+
+  td::before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    content: attr(data-label);
+    font-weight: bold;
+  }
+  .table-wrapper {
+    overflow-x: auto; 
+    padding-left: 17.5%;
+  }
+  
 }
 @media only screen and (min-width: 768px) {
   header {
@@ -114,6 +163,47 @@
   nav button {
     display: none;
   }
+  table {
+    display: flex;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    
+    
+    
+  }
+  .image-cell {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-cell img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-cell:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  body td a img:first-child {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+ 
+  body td label
+  {
+    margin-left: 2rem;
+  }
+  div
+{
+  display: flex;
+  justify-content: center;
+  
+}
+ 
 }
 body {
   background-color: white;
@@ -134,26 +224,17 @@ h1{
   text-align: center;
   font-family: "Titillium web";
 }
-div
+
+footer
 {
-  display: block;
+  background-color: rgb(54, 48, 48);
 }
-table {
-  display: table;
-  border-collapse: separate;
-  box-sizing: border-box;
-  text-indent: initial;
-  border-spacing: 2px;
-  border-color: gray;
-  padding-left: 55px;
-  
-}
-a:focus, a:hover, a {
-  cursor: pointer;
-  text-decoration: none;
-}
-body td a img:first-child {
-  margin-top: 2rem;
+footer img 
+{
+  background-color: rgb(54, 48, 48);
+  height: 2rem;
+  width: 6rem;
+  align-items: left;
 }
 body td a img {
   border: 2px solid rgb(210, 29, 29);
@@ -166,6 +247,19 @@ body td a img {
   min-height: 350px;
   margin-top: 2rem;
   margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
   background-color: rgb(54, 48, 48);
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+footer div a 
+{
+  color: #f1f1f1;
+  font-family: "Titillium web";
+}
+footer div
+{
+  display: block;
+  align-self: center;
+  align-items: center;
 }
