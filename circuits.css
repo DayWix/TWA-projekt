@@ -197,12 +197,6 @@
   {
     margin-left: 2rem;
   }
-  div
-{
-  display: flex;
-  justify-content: center;
-  
-}
  
 }
 body {
@@ -224,18 +218,6 @@ h1{
   text-align: center;
   font-family: "Titillium web";
 }
-
-footer
-{
-  background-color: rgb(54, 48, 48);
-}
-footer img 
-{
-  background-color: rgb(54, 48, 48);
-  height: 2rem;
-  width: 6rem;
-  align-items: left;
-}
 body td a img {
   border: 2px solid rgb(210, 29, 29);
   max-width: 100%;
@@ -252,14 +234,44 @@ body td a img {
 ::-webkit-scrollbar {
   width: 0px;
 }
-footer div a 
-{
-  color: #f1f1f1;
-  font-family: "Titillium web";
+
+
+footer div {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-footer div
+
+footer p {
+  margin-top: 10px;
+  color: #f1f1f1;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+footer
 {
-  display: block;
-  align-self: center;
-  align-items: center;
+  background-color: rgb(196, 0, 0);
+  padding: 20px;
+}
+footer div a img 
+{
+  background-color: rgb(196, 0, 0);
+  height: 3rem;
+  width: 10rem;
+  margin-top: 10px;
 }
