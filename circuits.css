@@ -129,6 +129,10 @@
     overflow-x: auto; 
     padding-left: 17.5%;
   }
+  div{  
+    display: flex;
+  justify-content: center;
+  }
   
 }
 @media only screen and (min-width: 768px) {
@@ -197,7 +201,10 @@
   {
     margin-left: 2rem;
   }
- 
+  div{  
+    display: flex;
+  justify-content: center;
+  }
 }
 body {
   background-color: white;
@@ -240,8 +247,6 @@ footer div {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
-  display: flex;
-  justify-content: center;
 }
 
 footer p {
