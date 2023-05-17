@@ -81,6 +81,27 @@
   nav button {
     display: none;
   }
+  footer div {
+    display: flex;
+    justify-content: center;
+  }
+  .ss {
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 2px solid rgb(210, 29, 29);
+  }
+  .ff {
+    display: flex;
+  }
+  aside {
+    margin-left: 0px;
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  section {
+    padding-right: 100px;
+  }
 }
 @media only screen and (min-width: 768px) {
   header {
@@ -114,6 +135,27 @@
   nav button {
     display: none;
   }
+  footer div {
+    display: flex;
+    justify-content: center;
+  }
+  .ss {
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 2px solid rgb(210, 29, 29);
+  }
+  .ff {
+    display: flex;
+  }
+  aside {
+    margin-left: 0px;
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  section {
+    padding-right: 100px;
+  }
 }
 body {
   background-color: white;
@@ -130,12 +172,6 @@ body header img {
 
 nav {
   background-color: rgb(196, 0, 0);
-}
-
-aside {
-  background-color: black;
-  color: orange;
-  width: 22%;
 }
 
 * {
@@ -183,4 +219,8 @@ footer div a img {
 
 ::-webkit-scrollbar {
   width: 0px;
+}
+
+.ss {
+  border: 2px solid rgb(210, 29, 29);
 }/*# sourceMappingURL=template.css.map */

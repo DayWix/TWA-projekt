@@ -85,6 +85,23 @@
     display: flex;
     justify-content: center;
   }
+  .ss {
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 2px solid rgb(210, 29, 29);
+  }
+  .ff {
+    display: flex;
+  }
+  aside {
+    margin-left: 0px;
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  section {
+    padding-right: 100px;
+  }
 }
 @media only screen and (min-width: 768px) {
   header {
@@ -122,6 +139,23 @@
     display: flex;
     justify-content: center;
   }
+  .ss {
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 2px solid rgb(210, 29, 29);
+  }
+  .ff {
+    display: flex;
+  }
+  aside {
+    margin-left: 0px;
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  section {
+    padding-right: 100px;
+  }
 }
 body {
   background-color: white;
@@ -131,6 +165,7 @@ body {
 body {
   font-family: "Titillium web";
 }
+
 body header img {
   padding: 10px;
 }
@@ -139,75 +174,8 @@ nav {
   background-color: rgb(196, 0, 0);
 }
 
-aside {
-  background-color: black;
-  color: orange;
-  width: 22%;
-}
-
 * {
   box-sizing: border-box;
-}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1500px;
-  position: relative;
-  margin: auto;
-  background-color: #717171;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.backgrounddiv {
-  background-color: lightgray;
 }
 
 footer div {
@@ -219,6 +187,7 @@ footer div {
 footer p {
   margin-top: 10px;
   color: #f1f1f1;
+  display: inline-block;
 }
 
 footer ul {
@@ -250,4 +219,8 @@ footer div a img {
 
 ::-webkit-scrollbar {
   width: 0px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.ss {
+  border: 2px solid rgb(210, 29, 29);
+}/*# sourceMappingURL=monoposty.css.map */

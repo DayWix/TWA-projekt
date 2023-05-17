@@ -71,6 +71,10 @@
     overflow-x: auto; 
     
   }
+  table {
+    width: 100%;
+    max-width: 100%;
+  }
  
   
 }
@@ -129,10 +133,15 @@
     overflow-x: auto; 
     padding-left: 17.5%;
   }
-  div{  
+  footer div{  
     display: flex;
   justify-content: center;
   }
+  section, aside {
+    display: block;
+  }
+
+  
   
 }
 @media only screen and (min-width: 768px) {
@@ -205,6 +214,28 @@
     display: flex;
   justify-content: center;
   }
+  .ss
+  {
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 2px solid rgb(210, 29, 29);
+  }
+  .ff
+  {
+   display: flex; 
+   
+  }
+  aside
+  {
+    margin-left: 0px;
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  section
+  {
+    padding-right: 100px;
+  }
 }
 body {
   background-color: white;
@@ -221,7 +252,7 @@ body header img {
 nav {
   background-color: rgb(196, 0, 0);
 }
-h1{
+h1,h2{
   text-align: center;
   font-family: "Titillium web";
 }
@@ -237,6 +268,7 @@ body td a img {
   margin-top: 2rem;
   margin-bottom: 5px;
   background-color: rgb(54, 48, 48);
+  padding-left: auto;
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -280,3 +312,7 @@ footer div a img
   width: 10rem;
   margin-top: 10px;
 }
+.ss
+  {
+    border: 2px solid rgb(210, 29, 29);
+  }
