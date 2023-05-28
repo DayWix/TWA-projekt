@@ -223,14 +223,37 @@ footer div a img {
 
 .ss {
   border: 2px solid rgb(210, 29, 29);
+  padding: auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 table {
   margin: 0 auto;
+  
+}
+.pp{
+   text-align: center;
+   padding: 20px;
+   margin: 50px;
+   font-size: 20px;
+}
+h1,h2{
+  text-align: center;
+  font-family: "Titillium web"
 
 }
-.divos
+h2
 {
-  
+  font-size: 30px;
+}
+.hh{
+border: 2px solid rgb(210, 29, 29);
+padding: auto;
+margin: 70px;
+}
+div label
+{
+  font-size: 20px;
 }
 /*# sourceMappingURL=FIA.css.map */

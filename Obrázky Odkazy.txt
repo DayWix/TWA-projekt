@@ -106,6 +106,7 @@ racing.png - https://upload.wikimedia.org/wikipedia/commons/f/f4/Logo_Racing_Poi
 renault.png - https://upload.wikimedia.org/wikipedia/en/archive/7/7b/20131216015833%21Renault_Sport_F1_Logo_White_Background.jpg
 sauber.png - https://upload.wikimedia.org/wikipedia/commons/e/ea/Logo_Sauber_F1.png
 rosso.webp - https://thehande.files.wordpress.com/2016/05/toro-rosso.png
-logo-lotus.jpg - 
+fia-logo.png - https://logodownload.org/wp-content/uploads/2017/10/fia-logo.png
+penalty.png - https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/199968368/original/84dd45792f8ff21d4d79e7dc1ca68236d8890f93/make-custom-formula-1-graphics.png
 
 

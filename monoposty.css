@@ -98,6 +98,7 @@ td img {
     height: 225px;
     border: 2px solid rgb(210, 29, 29);
     padding: 20px;
+    background-color: #f1f1f1;
 }
 }
 @media only screen and (min-width: 576px) and (max-width: 768px) {
@@ -137,6 +138,7 @@ td img {
     justify-content: center;
   }
   .ss {
+    flex: 1;
     margin-left: 20px;
     padding-left: 20px;
     border: 2px solid rgb(210, 29, 29);
@@ -170,7 +172,7 @@ td img {
   background-repeat: no-repeat;
   background-size: cover;
   }
-  img {
+  td img {
     width: 250px;
     height: 250px;
     
@@ -214,9 +216,11 @@ td img {
     justify-content: center;
   }
   .ss {
+    flex: 1;
     margin-left: 20px;
     padding-left: 20px;
     border: 2px solid rgb(210, 29, 29);
+    background-color: #f1f1f1;
   }
   .ff {
     display: flex;
@@ -319,17 +323,10 @@ footer div a img {
   width: 0px;
 }
 
-h1,h2 {
-  text-align: center;
-  font-family: "Titillium web";
+.ss {
+  border: 2px solid rgb(210, 29, 29);
 }
-.pp
-{
-  text-align: center;
-  font-family: "Titillium web";
-}
-div tr td
-{
-  background-color: #f1f1f1;
-}
-/*# sourceMappingURL=monoposty.css.map */
+
+table {
+  margin: 0 auto;
+}/*# sourceMappingURL=monoposty.css.map */
