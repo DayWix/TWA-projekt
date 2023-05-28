@@ -49,7 +49,7 @@
     color: #f1f1f1;
   }
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 576px) and (max-width: 768px) {
   header {
     background-color: white;
   }
@@ -81,9 +81,26 @@
   nav button {
     display: none;
   }
-  div {
+  footer div {
     display: flex;
     justify-content: center;
+  }
+  .ss {
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 2px solid rgb(210, 29, 29);
+  }
+  .ff {
+    display: flex;
+  }
+  aside {
+    margin-left: 0px;
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  section {
+    padding-right: 100px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -111,16 +128,33 @@
   nav a {
     display: block;
     padding: 0.5em;
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 20px;
   }
   nav button {
     display: none;
   }
-  div {
+  footer div {
     display: flex;
     justify-content: center;
+  }
+  .ss {
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 2px solid rgb(210, 29, 29);
+  }
+  .ff {
+    display: flex;
+  }
+  aside {
+    margin-left: 0px;
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  section {
+    padding-right: 100px;
   }
 }
 body {
@@ -138,12 +172,6 @@ body header img {
 
 nav {
   background-color: rgb(196, 0, 0);
-}
-
-aside {
-  background-color: black;
-  color: orange;
-  width: 22%;
 }
 
 * {
@@ -191,4 +219,18 @@ footer div a img {
 
 ::-webkit-scrollbar {
   width: 0px;
-}/*# sourceMappingURL=FIA.css.map */
+}
+
+.ss {
+  border: 2px solid rgb(210, 29, 29);
+}
+
+table {
+  margin: 0 auto;
+
+}
+.divos
+{
+  
+}
+/*# sourceMappingURL=FIA.css.map */

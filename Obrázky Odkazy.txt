@@ -78,3 +78,34 @@ Russian_Grand_Prix_2014.webp - https://static.wikia.nocookie.net/f1wikia/images/
 Valencia_street.webp - https://static.wikia.nocookie.net/f1wikia/images/8/88/Circuit_Valencia_street.png/revision/latest?cb=20120419040009
 Watkins.webp - https://static.wikia.nocookie.net/f1wikia/images/e/eb/450px-Watkins_Glen_International_Track_Map.svg.png/revision/latest?cb=20140323155243
 Zolder.webp - https://static.wikia.nocookie.net/f1wikia/images/3/35/Zolder.png/revision/latest?cb=20140923210724
+romeo.png - https://www.media.stellantis.com/cache/a/f/d/3/8/afd38d88b5b35e032b2977642c5fb1868d9483c4.jpeg
+tauri.png - https://upload.wikimedia.org/wikipedia/en/0/09/Scuderia_Alpha-Tauri.svg
+alpine.png - https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Alpine_F1_Team_Logo.svg/1117px-Alpine_F1_Team_Logo.svg.png
+aston.png - https://seeklogo.com/images/A/aston-martin-formula-one-race-logo-0D6CEA5C3B-seeklogo.com.png
+ferrari.png - https://logoeps.com/wp-content/uploads/2013/01/ferrari-emblem-logo-vector.png
+haas.png - https://logodownload.org/wp-content/uploads/2022/03/haas-f1-team-logo-0.png
+mclaren.png - https://pbs.twimg.com/media/Fr58Pu8WYAEzwTn?format=png&name=medium
+mercedes.png - https://seeklogo.com/images/M/mercedes-amg-f1-logo-1ED622D95E-seeklogo.com.png
+redbull.png - https://www.brandlogo.org/wp-content/uploads/2023/03/Oracle-Red-Bull-Racing-Logo.png
+williams.png - https://logodownload.org/wp-content/uploads/2022/04/williams-racing-logo-0.png
+photo.jpg - https://www.goodwood.com/globalassets/.road--racing/race/modern/2022/3-march/f1-2022-calendar/2022-f1-calendar-drivers-championship-standings-zak-mauger-mi-21032022.jpg?crop=(0,135,2600,1598)&width=1600
+ bmw.webp - https://cdn.pixabay.com/photo/2016/08/15/18/18/bmw-1596080_960_720.png
+brawn.jpg - https://live.staticflickr.com/3622/3511473688_4321a10976_n.jpg
+british.png - https://i.pinimg.com/originals/a1/50/51/a150518c2b88b635b09d7c917057a1ae.png
+india.png - https://lezebre.lu/images/detailed/17/30580-Force-India-F1.png
+honda.png - https://sto-am.com.ua/wp-content/uploads/2017/06/honda-logo-png-300x300.png
+jaguar.webp - https://cdn.shopify.com/s/files/1/0341/8747/7130/products/20230131134036.jpg?v=167514460
+jordan.jpg - https://ih1.redbubble.net/image.1703003000.3570/pp,504x498-pad,600x600,f8f8f8.jpg
+lotusf1.jpg - https://yt3.googleusercontent.com/ytc/AGIKgqP-fJkGMJWxkGrOJh_Xg_wUYjjS4D2z1GM2Xqjr0g=s900-c-k-c0x00ffffff-no-rj
+lotusr.png - https://seeklogo.com/images/L/lotus-racing-f1-team-logo-CB8F52D360-seeklogo.com.png
+maserati.webp - https://imageio.forbes.com/specials-images/imageserve/6349a1ab15ef0cb836b5c03d/0x0.jpg?format=jpg&crop=979,979,x314,y339,safe&width=300
+minardi.png - https://www.racedepartment.com/attachments/minardi_team_logo-png.387978/
+porsche.jpg - https://www.atek.cz/data/product-catalog/filter-brand/7/small-1504602499-porsche.jpg
+prost.jpg - https://ih1.redbubble.net/image.4843011777.0277/st,small,507x507-pad,600x600,f8f8f8.jpg
+racing.png - https://upload.wikimedia.org/wikipedia/commons/f/f4/Logo_Racing_Point_imitación.png
+renault.png - https://upload.wikimedia.org/wikipedia/en/archive/7/7b/20131216015833%21Renault_Sport_F1_Logo_White_Background.jpg
+sauber.png - https://upload.wikimedia.org/wikipedia/commons/e/ea/Logo_Sauber_F1.png
+rosso.webp - https://thehande.files.wordpress.com/2016/05/toro-rosso.png
+logo-lotus.jpg - 
+
+

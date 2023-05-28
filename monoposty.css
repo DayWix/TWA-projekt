@@ -48,8 +48,59 @@
     font-size: 25px;
     color: #f1f1f1;
   }
+  td,
+  th {
+    display: block;
+  }
+
+  td {
+    position: relative;
+  }
+
+  td::before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    content: attr(data-label);
+    font-weight: bold;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url('photo.jpg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .table-wrapper2 {
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url('photo.jpg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  table {
+    width: 75%;
+    max-width: 75%;
+  }
+td img {  
+  width: 225px;
+    height: 225px;
+    border: 2px solid rgb(210, 29, 29);
+    padding: 20px;
 }
-@media only screen and (min-width: 576px) {
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
   header {
     background-color: white;
   }
@@ -86,7 +137,6 @@
     justify-content: center;
   }
   .ss {
-    flex: 1;
     margin-left: 20px;
     padding-left: 20px;
     border: 2px solid rgb(210, 29, 29);
@@ -102,6 +152,30 @@
   section {
     padding-right: 100px;
   }
+  .table-wrapper {
+    display: block;
+    justify-content: center;
+    overflow-x: auto;
+    background-image: url('photo.jpeg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .table-wrapper2 {
+    display: block;
+    justify-content: center;
+    overflow-x: auto;
+    background-image: url('photo.jpeg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  img {
+    width: 250px;
+    height: 250px;
+    
+  }
+  
 }
 @media only screen and (min-width: 768px) {
   header {
@@ -128,7 +202,7 @@
   nav a {
     display: block;
     padding: 0.5em;
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 20px;
   }
@@ -140,7 +214,6 @@
     justify-content: center;
   }
   .ss {
-    flex: 1;
     margin-left: 20px;
     padding-left: 20px;
     border: 2px solid rgb(210, 29, 29);
@@ -156,6 +229,31 @@
   section {
     padding-right: 100px;
   }
+  img
+  {
+    width: 300px;
+    height: 300px;
+    padding-top:10px;
+    padding-right: 10px;
+    
+  }
+  .table-wrapper {
+    display: flex;
+    justify-content: center;
+    background-image: url('photo.jpg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .table-wrapper2 {
+    display: flex;
+    justify-content: center;
+    background-image: url('photo.jpg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
 }
 body {
   background-color: white;
@@ -221,6 +319,17 @@ footer div a img {
   width: 0px;
 }
 
-.ss {
-  border: 2px solid rgb(210, 29, 29);
-}/*# sourceMappingURL=monoposty.css.map */
+h1,h2 {
+  text-align: center;
+  font-family: "Titillium web";
+}
+.pp
+{
+  text-align: center;
+  font-family: "Titillium web";
+}
+div tr td
+{
+  background-color: #f1f1f1;
+}
+/*# sourceMappingURL=monoposty.css.map */
