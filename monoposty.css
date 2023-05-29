@@ -326,7 +326,9 @@ footer div a img {
 .ss {
   border: 2px solid rgb(210, 29, 29);
 }
-
+h1,h2{
+  text-align: center;
+  font-family: "Titillium web";
 table {
   margin: 0 auto;
 }/*# sourceMappingURL=monoposty.css.map */
