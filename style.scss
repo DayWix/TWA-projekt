@@ -38,7 +38,7 @@
   
   /* Stylování odkazů uvnitř rozbalovacího menu */
   .dropdown-content a {
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -57,11 +57,18 @@
     font-size: 25px;
     color: #f1f1f1;
   }
+  .ff {
+
+    overflow-x: auto; 
+    display: flex;
+    flex-wrap: wrap;
+    
+}
  
 }
     
 
-@media only screen and (min-width: 576px) 
+@media only screen and (min-width: 576px) and (max-width:768px)
 {
     
     header
@@ -92,19 +99,28 @@
         a{
             display: block;
             padding: 0.5em;
-            color: black;
+            color: rgb(255, 255, 255);
             text-decoration: none;
             font-size: 20px;
+            
             
         }   
         button{
             display: none;
         }
+
     }
     footer div{  
       display: flex;
     justify-content: center;
     }
+    .ff {
+
+      overflow-x: auto; 
+      display: flex;
+      flex-wrap: wrap;
+      
+  }
 }
 @media only screen and (min-width: 768px) 
 {
@@ -130,14 +146,13 @@
         li{
             display: inline-block;
         }
-        a{
-            display: block;
-            padding: 0.5em;
-            color: black;
-            text-decoration: none;
-            font-size: 20px;
-            
-        }   
+        a {
+          display: block;
+          padding: 0.5em;
+          color: white;
+          text-decoration: none;
+          font-size: 20px;
+        }
         button{
             display: none;
         }
@@ -146,7 +161,13 @@
       display: flex;
     justify-content: center;
     }
-        
+    .ff {
+
+      overflow-x: auto; 
+      display: flex;
+      
+      
+  } 
    
 }
 body{
@@ -165,11 +186,6 @@ body{
 nav{
     background-color: rgb(196, 0, 0);
     
-}
-aside{
-    background-color: black;
-    color: orange;
-    width: 22%;
 }
 * {box-sizing:border-box}
 
@@ -272,3 +288,29 @@ footer div a img {
 ::-webkit-scrollbar {
     width: 0px;
   }
+.ss{
+  
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 2px solid rgb(210, 29, 29);
+    
+}
+
+.bb1 {
+  padding: 10px;
+  border: 10px solid rgb(210, 29, 29);
+  border-width: 10px 10px 10px 0; 
+  border-radius: 10px; 
+  overflow: hidden;
+  margin: 30px;
+}
+.bb2 {
+  padding: 10px;
+  border: 10px solid rgb(210, 29, 29);
+  border-width: 10px 0 10px 10px; 
+  border-radius: 10px; 
+  overflow: hidden;
+  margin: 30px;
+ 
+}

@@ -107,6 +107,9 @@ renault.png - https://upload.wikimedia.org/wikipedia/en/archive/7/7b/20131216015
 sauber.png - https://upload.wikimedia.org/wikipedia/commons/e/ea/Logo_Sauber_F1.png
 rosso.webp - https://thehande.files.wordpress.com/2016/05/toro-rosso.png
 fia-logo.png - https://logodownload.org/wp-content/uploads/2017/10/fia-logo.png
-penalty.png - https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/199968368/original/84dd45792f8ff21d4d79e7dc1ca68236d8890f93/make-custom-formula-1-graphics.png
+penalty.png - https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/199968368/original/84dd45792f8ff21d4d79e7dc1ca68236d8890f93/make-custom-formula-1-
+vlajky.jpg - https://pbs.twimg.com/media/CfHgFsLUIAA1SPB?format=jpg&name=4096x4096
+imola-potopa.jpg https://e0.365dm.com/23/05/2048x1152/skysports-imola-flooding-f1_6159137.jpg
+
 
 
