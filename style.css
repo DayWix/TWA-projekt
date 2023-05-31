@@ -274,6 +274,8 @@ footer div a img {
   border-radius: 10px;
   overflow: hidden;
   margin: 30px;
+  height: 50%;
+  width: 50%;
 }
 
 .bb2 {
@@ -283,4 +285,6 @@ footer div a img {
   border-radius: 10px;
   overflow: hidden;
   margin: 30px;
+  height: 50%;
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */

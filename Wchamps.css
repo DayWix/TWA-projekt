@@ -62,6 +62,7 @@
   }
   nav {
     text-align: center;
+    
   }
   nav ul {
     list-style: none;
@@ -81,30 +82,25 @@
   nav button {
     display: none;
   }
-  footer div{  
+  footer div {
     display: flex;
-  justify-content: center;
+    justify-content: center;
   }
-  .ss
-  {
+  .ss {
     flex: 1;
     margin-left: 20px;
     padding-left: 20px;
     border: 2px solid rgb(210, 29, 29);
   }
-  .ff
-  {
-   display: flex; 
-   
+  .ff {
+    display: flex;
   }
-  aside
-  {
+  aside {
     margin-left: 0px;
     padding-top: 30px;
     font-size: 25px;
   }
-  section
-  {
+  section {
     padding-right: 100px;
   }
 }
@@ -140,30 +136,25 @@
   nav button {
     display: none;
   }
-  footer div{  
+  footer div {
     display: flex;
-  justify-content: center;
+    justify-content: center;
   }
-  .ss
-  {
+  .ss {
     flex: 1;
     margin-left: 20px;
     padding-left: 20px;
     border: 2px solid rgb(210, 29, 29);
   }
-  .ff
-  {
-   display: flex; 
-   
+  .ff {
+    display: flex;
   }
-  aside
-  {
+  aside {
     margin-left: 0px;
     padding-top: 30px;
     font-size: 25px;
   }
-  section
-  {
+  section {
     padding-right: 100px;
   }
 }
@@ -175,6 +166,7 @@ body {
 body {
   font-family: "Titillium web";
 }
+
 body header img {
   padding: 10px;
 }
@@ -183,56 +175,87 @@ nav {
   background-color: rgb(196, 0, 0);
 }
 
-
-
 * {
   box-sizing: border-box;
 }
+
 footer div {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-  }
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 10px;
+  color: #f1f1f1;
+  display: inline-block;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+footer {
+  background-color: rgb(196, 0, 0);
+  padding: 20px;
+}
+
+footer div a img {
+  background-color: rgb(196, 0, 0);
+  height: 3rem;
+  width: 10rem;
+  margin-top: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.ss {
+  border: 2px solid rgb(210, 29, 29);
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px rgb(196, 0, 0);
   
-  footer p {
-    margin-top: 10px;
-    color: #f1f1f1;
-    display: inline-block;
-  }
-  
-  footer ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  footer li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  footer a {
-    text-decoration: none;
-    color: #f1f1f1;
-  }
-  footer
-  {
-    background-color: rgb(196, 0, 0);
-    padding: 20px;
-  }
-  footer div a img 
-  {
-    background-color: rgb(196, 0, 0);
-    height: 3rem;
-    width: 10rem;
-    margin-top: 10px;
-  }
-  ::-webkit-scrollbar {
-    width: 0px;
-  }
-  .ss
-  {
-    border: 2px solid rgb(210, 29, 29);
-  }
-  table {
-    margin: 0 auto;
-  }
+}
+
+th {
+  background-color:rgb(196, 0, 0);
+}
+table {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+h1
+{
+  text-align: center;
+}
+th
+{
+  color: #f1f1f1;
+}
+td
+{
+  border: 2px solid rgb(196, 0, 0);
+}
+  /*# sourceMappingURL=Wchamps.css.map */

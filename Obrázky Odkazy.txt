@@ -110,6 +110,7 @@ fia-logo.png - https://logodownload.org/wp-content/uploads/2017/10/fia-logo.png
 penalty.png - https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/199968368/original/84dd45792f8ff21d4d79e7dc1ca68236d8890f93/make-custom-formula-1-
 vlajky.jpg - https://pbs.twimg.com/media/CfHgFsLUIAA1SPB?format=jpg&name=4096x4096
 imola-potopa.jpg https://e0.365dm.com/23/05/2048x1152/skysports-imola-flooding-f1_6159137.jpg
+astonf1.jpg - https://e2.365dm.com/23/05/768x432/skysports-f1-fernando-alonso_6164950.jpg?20230523133651
 
 
 
