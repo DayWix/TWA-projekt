@@ -31,7 +31,7 @@
   }
   /* Stylování odkazů uvnitř rozbalovacího menu */
   .dropdown-content a {
-    color: rgb(255, 255, 255);
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -52,6 +52,22 @@
     overflow-x: auto;
     display: flex;
     flex-wrap: wrap;
+  }
+  .bb1 {
+    padding: 10px;
+    border: 10px solid rgb(210, 29, 29);
+    border-width: 10px 10px 10px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;
+  }
+  .bb2 {
+    padding: 10px;
+    border: 10px solid rgb(210, 29, 29);
+    border-width: 10px 0 10px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 768px) {
@@ -95,6 +111,32 @@
     display: flex;
     flex-wrap: wrap;
   }
+  .bb1 {
+    padding: 10px;
+    border: 10px solid rgb(210, 29, 29);
+    border-width: 10px 10px 10px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;
+    height: 50%;
+    width: 50%;
+  }
+  .bb2 {
+    padding: 10px;
+    border: 10px solid rgb(210, 29, 29);
+    border-width: 10px 0 10px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;
+    height: 50%;
+    width: 50%;
+  }
+  .gg {
+    width: 440px;
+    height: 160px;
+    padding-left: 20px;
+    size: 50%;
+  }
 }
 @media only screen and (min-width: 768px) {
   header {
@@ -135,6 +177,26 @@
   .ff {
     overflow-x: auto;
     display: flex;
+  }
+  .bb1 {
+    padding: 10px;
+    border: 10px solid rgb(210, 29, 29);
+    border-width: 10px 10px 10px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;
+    height: 50%;
+    width: 50%;
+  }
+  .bb2 {
+    padding: 10px;
+    border: 10px solid rgb(210, 29, 29);
+    border-width: 10px 0 10px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;
+    height: 50%;
+    width: 50%;
   }
 }
 body {
@@ -265,26 +327,4 @@ footer div a img {
   margin-left: 20px;
   padding-left: 20px;
   border: 2px solid rgb(210, 29, 29);
-}
-
-.bb1 {
-  padding: 10px;
-  border: 10px solid rgb(210, 29, 29);
-  border-width: 10px 10px 10px 0;
-  border-radius: 10px;
-  overflow: hidden;
-  margin: 30px;
-  height: 50%;
-  width: 50%;
-}
-
-.bb2 {
-  padding: 10px;
-  border: 10px solid rgb(210, 29, 29);
-  border-width: 10px 0 10px 10px;
-  border-radius: 10px;
-  overflow: hidden;
-  margin: 30px;
-  height: 50%;
-  width: 50%;
 }/*# sourceMappingURL=style.css.map */
