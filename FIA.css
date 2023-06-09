@@ -224,6 +224,11 @@ footer div a img {
 .ss {
   border: 2px solid rgb(210, 29, 29);
 }
+p
+{
+  text-align: center;
+  border: 2px solid rgb(210, 29, 29);
+}
 
 table {
   margin: 0 auto;
